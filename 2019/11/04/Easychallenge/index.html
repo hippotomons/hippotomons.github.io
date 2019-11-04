@@ -53,33 +53,27 @@
   };
 </script>
 
-  <meta name="description" content="题目来源: PCTF 题目描述: 你和小鱼走啊走走啊走，走到下一个题目一看你又一愣，怎么还是一个数学题啊 小鱼又一笑，hhhh数学在密码学里面很重要的！现在知道吃亏了吧！你哼一声不服气，我知道数学 很重要了！但是工具也很重要的，你看我拿工具把他解出来！你打开电脑折腾了一会还真的把答案 做了出来，小鱼有些吃惊，向你投过来一个赞叹的目光   附件下载下来又是一阵懵逼，一个enc文件，一个是pem文件，">
-<meta name="keywords" content="CTF,密码学,RSA">
+  <meta name="description" content="题目来源：  NJUPT_CTF  题目描述：  你们走到了一个冷冷清清的谜题前面，小鱼看着题目给的信息束手无策，丈二和尚摸不着头脑 ，你嘿嘿一笑，拿出来了你随身带着的笔记本电脑，噼里啪啦的敲起来了键盘，清晰的函数逻辑和流程出现在了电脑屏幕上，你敲敲键盘，更改了几处地方，运行以后答案变出现在了电脑屏幕上。   附件下载下来发现是一个.pyc文件 : 百度得到信息：  pyc是一种二进制文件，是由p">
+<meta name="keywords" content="CTF,Python,pyc反编译,编码转换">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Normal_RSA">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;04&#x2F;Normal-RSA&#x2F;index.html">
+<meta property="og:title" content="Easychallenge">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;04&#x2F;Easychallenge&#x2F;index.html">
 <meta property="og:site_name" content="hippotomons的小窝">
-<meta property="og:description" content="题目来源: PCTF 题目描述: 你和小鱼走啊走走啊走，走到下一个题目一看你又一愣，怎么还是一个数学题啊 小鱼又一笑，hhhh数学在密码学里面很重要的！现在知道吃亏了吧！你哼一声不服气，我知道数学 很重要了！但是工具也很重要的，你看我拿工具把他解出来！你打开电脑折腾了一会还真的把答案 做了出来，小鱼有些吃惊，向你投过来一个赞叹的目光   附件下载下来又是一阵懵逼，一个enc文件，一个是pem文件，">
+<meta property="og:description" content="题目来源：  NJUPT_CTF  题目描述：  你们走到了一个冷冷清清的谜题前面，小鱼看着题目给的信息束手无策，丈二和尚摸不着头脑 ，你嘿嘿一笑，拿出来了你随身带着的笔记本电脑，噼里啪啦的敲起来了键盘，清晰的函数逻辑和流程出现在了电脑屏幕上，你敲敲键盘，更改了几处地方，运行以后答案变出现在了电脑屏幕上。   附件下载下来发现是一个.pyc文件 : 百度得到信息：  pyc是一种二进制文件，是由p">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;Normal_RSA&#x2F;%E6%8C%A0%E5%A4%B4.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;Normal_RSA&#x2F;%E9%99%84%E4%BB%B6.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;Normal_RSA&#x2F;pubkey.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;Normal_RSA&#x2F;base64%E4%B9%B1%E7%A0%81.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;Normal_RSA&#x2F;%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93%E7%9A%84%E8%AF%AF%E5%AF%BC1.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;Normal_RSA&#x2F;%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93%E7%9A%84%E8%AF%AF%E5%AF%BC2.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;Normal_RSA&#x2F;pem%E6%98%AF%E5%95%A5.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;Normal_RSA&#x2F;openssl%E6%8F%90%E5%8F%96pem.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;Normal_RSA&#x2F;%E8%B4%A8%E5%9B%A0%E6%95%B0%E5%88%86%E8%A7%A3.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;Normal_RSA&#x2F;%E7%94%9F%E6%88%90private.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;Normal_RSA&#x2F;%E7%94%9F%E6%88%90flag.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;Normal_RSA&#x2F;flag.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;Normal_RSA&#x2F;kali%E8%A1%A8%E6%83%85%E5%8C%851.png">
-<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;Normal_RSA&#x2F;kali%E8%A1%A8%E6%83%85%E5%8C%852.png">
-<meta property="og:updated_time" content="2019-11-04T12:53:57.753Z">
+<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;easychallenge&#x2F;%E9%99%84%E4%BB%B6%E5%9B%BE%E7%89%87.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;easychallenge&#x2F;%E9%87%8D%E5%91%BD%E5%90%8D%E5%90%8Epng.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;easychallenge&#x2F;%E5%8F%8D%E7%BC%96%E8%AF%91.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;easychallenge&#x2F;%E5%8F%8D%E7%BC%96%E8%AF%91%E5%90%8E.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;easychallenge&#x2F;%E8%A7%A3%E5%86%B3chn.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;easychallenge&#x2F;%E8%A7%A3%E5%86%B3en.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;easychallenge&#x2F;flag.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;easychallenge&#x2F;%E7%99%BE%E5%BA%A6.jpg">
+<meta property="og:updated_time" content="2019-11-04T13:22:42.409Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;Normal_RSA&#x2F;%E6%8C%A0%E5%A4%B4.png">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;hippotomons-1300590185.cos.ap-chengdu.myqcloud.com&#x2F;easychallenge&#x2F;%E9%99%84%E4%BB%B6%E5%9B%BE%E7%89%87.png">
 
-<link rel="canonical" href="http://yoursite.com/2019/11/04/Normal-RSA/">
+<link rel="canonical" href="http://yoursite.com/2019/11/04/Easychallenge/">
 
 
 <script id="page-configurations">
@@ -93,7 +87,7 @@
   };
 </script>
 
-  <title>Normal_RSA | hippotomons的小窝</title>
+  <title>Easychallenge | hippotomons的小窝</title>
   
 
 
@@ -234,7 +228,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/04/Normal-RSA/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/04/Easychallenge/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/my_avatar.jpg">
@@ -247,7 +241,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Normal_RSA
+          Easychallenge
         </h1>
 
         <div class="post-meta">
@@ -258,7 +252,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2019-11-04 20:31:24 / 修改时间：20:53:57" itemprop="dateCreated datePublished" datetime="2019-11-04T20:31:24+08:00">2019-11-04</time>
+              <time title="创建时间：2019-11-04 20:59:30 / 修改时间：21:22:42" itemprop="dateCreated datePublished" datetime="2019-11-04T20:59:30+08:00">2019-11-04</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -273,7 +267,7 @@
             </span>
 
           
-            <span id="/2019/11/04/Normal-RSA/" class="post-meta-item leancloud_visitors" data-flag-title="Normal_RSA" title="阅读次数">
+            <span id="/2019/11/04/Easychallenge/" class="post-meta-item leancloud_visitors" data-flag-title="Easychallenge" title="阅读次数">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
@@ -295,8 +289,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2019/11/04/Normal-RSA/#comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2019/11/04/Normal-RSA/" itemprop="commentCount"></span>
+    <a title="valine" href="/2019/11/04/Easychallenge/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2019/11/04/Easychallenge/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -306,14 +300,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>1.4k</span>
+              <span>3.5k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="fa fa-clock-o"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
+              <span>3 分钟</span>
             </span>
 
         </div>
@@ -325,64 +319,65 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p><strong>题目来源:</strong> PCTF</p>
-<p><strong>题目描述:</strong> 你和小鱼走啊走走啊走，走到下一个题目一看你又一愣，怎么还是一个数学题啊 小鱼又一笑，hhhh数学在密码学里面很重要的！现在知道吃亏了吧！你哼一声不服气，我知道数学 很重要了！但是工具也很重要的，你看我拿工具把他解出来！你打开电脑折腾了一会还真的把答案 做了出来，小鱼有些吃惊，向你投过来一个赞叹的目光</p>
+        <p><strong>题目来源：</strong>  NJUPT_CTF </p>
+<p><strong>题目描述：</strong>  你们走到了一个冷冷清清的谜题前面，小鱼看着题目给的信息束手无策，丈二和尚摸不着头脑 ，你嘿嘿一笑，拿出来了你随身带着的笔记本电脑，噼里啪啦的敲起来了键盘，清晰的函数逻辑和流程出现在了电脑屏幕上，你敲敲键盘，更改了几处地方，运行以后答案变出现在了电脑屏幕上。 </p>
 <hr>
-<p> 附件下载下来又是一阵懵逼，一个enc文件，一个是pem文件，根据名字可以猜到一个是flag的密文， 一个是公钥（pubkey），但是这两种文件格式咱都没见过啊。。<img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/Normal_RSA/%E6%8C%A0%E5%A4%B4.png" style="zoom:15%;" /></p>
-<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/Normal_RSA/%E9%99%84%E4%BB%B6.png" alt=""></p>
-<p> flag.enc打不开，pubkey.pem倒是可以打开，里面也明确写了这是个public key，而且中间有一段base64的编码 </p>
-<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/Normal_RSA/pubkey.png" alt=""></p>
-<p> 但是解码出来也是意义不明的乱码 </p>
-<img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/Normal_RSA/base64%E4%B9%B1%E7%A0%81.png" style="zoom: 110%;" />
+<p>附件下载下来发现是一个.pyc文件 :<img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/easychallenge/%E9%99%84%E4%BB%B6%E5%9B%BE%E7%89%87.png" style="zoom:33%;" /></p>
+<p>百度得到信息：</p>
+<blockquote>
+<p>pyc是一种二进制文件，是由py文件经过编译后，生成的文件，是一种byte code，py文件变成pyc文件后，运行加载的速度会有所提高；另一反面，把py文件编译为pyc文件，从而可以实现部分的源码隐藏，保证了python做商业化软件时的安全性</p>
+</blockquote>
+<p>花了一段时间想要用些软件打开它，未果</p>
+<p>然后在百度找软件的过程中，发现可以将pyc文件反编译回py文件</p>
+<p>于是继续百度，了解到可以用uncompyle6这个第三方python反编译器来进行反编译:</p>
+<blockquote>
+<p>uncompyle6是一个原生python的跨版本反编译器和fragment反编译器，是decompyle、uncompyle、uncompyle2等的接替者。</p>
+<p>uncompyle6可将python字节码转换回等效的python源代码，它接受python 1.3版到3.8版的字节码，这其中跨越了24年的python版本，此外还包括Dropbox的Python 2.5字节码和一些PyPy字节码。</p>
+<p><a href="https://github.com/rocky/python-uncompyle6" target="_blank" rel="noopener">github项目</a></p>
+</blockquote>
+<p>然后pip install uncompyle6安装之</p>
+<p>先把附件重命名为mima.pyc以便后续操作</p>
+<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/easychallenge/%E9%87%8D%E5%91%BD%E5%90%8D%E5%90%8Epng.png" alt=""></p>
+<p> 在mima.pyc所在文件夹位置打开cmder，输入命令 :</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">uncompyle6 -o . mima.pyc</span><br></pre></td></tr></table></figure>
+
+<p> 成功反编译为mima.py文件 </p>
+<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/easychallenge/%E5%8F%8D%E7%BC%96%E8%AF%91.png" alt=""></p>
+<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/easychallenge/%E5%8F%8D%E7%BC%96%E8%AF%91%E5%90%8E.png" alt=""></p>
+<p>用vscode打开mima.py，完整的python源代码便玉体横陈在我们面前了:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># uncompyle6 version 3.5.0</span></span><br><span class="line"><span class="comment"># Python bytecode 2.7 (62211)</span></span><br><span class="line"><span class="comment"># Decompiled from: Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)]</span></span><br><span class="line"><span class="comment"># Embedded file name: ans.py</span></span><br><span class="line"><span class="comment"># Compiled at: 2018-08-09 11:29:44</span></span><br><span class="line"><span class="keyword">import</span> base64</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">encode1</span><span class="params">(ans)</span>:</span></span><br><span class="line">    s = <span class="string">''</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> ans:</span><br><span class="line">        x = ord(i) ^ <span class="number">36</span></span><br><span class="line">        x = x + <span class="number">25</span></span><br><span class="line">        s += chr(x)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> s</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">encode2</span><span class="params">(ans)</span>:</span></span><br><span class="line">    s = <span class="string">''</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> ans:</span><br><span class="line">        x = ord(i) + <span class="number">36</span></span><br><span class="line">        x = x ^ <span class="number">36</span></span><br><span class="line">        s += chr(x)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> s</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">encode3</span><span class="params">(ans)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> base64.b32encode(ans)</span><br><span class="line"></span><br><span class="line">flag = <span class="string">' '</span></span><br><span class="line"><span class="keyword">print</span> <span class="string">'Please Input your flag:'</span></span><br><span class="line">flag = raw_input()</span><br><span class="line">final = <span class="string">'UC7KOWVXWVNKNIC2XCXKHKK2W5NLBKNOUOSK3LNNVWW3E==='</span></span><br><span class="line"><span class="keyword">if</span> encode3(encode2(encode1(flag))) == final:</span><br><span class="line">    <span class="keyword">print</span> <span class="string">'correct'</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="keyword">print</span> <span class="string">'wrong'</span></span><br></pre></td></tr></table></figure>
+
+<p>这里二话没说，先运行了一下，之后编译器提示错误，一共有两个，第一个是print’correct’报错，第二个是flag = raw_input()报错</p>
+<p>继续百度，发现这两处错误都是由于python2和python3版本不兼容造成的</p>
+<p>将print’correct’改为print(‘correct’)，将flag = raw_input()改为flag = eval(input())就行了</p>
+<p>然后运行发现是需要输入一个flag值，经过运算之后，输出correct或者wrong</p>
+<p>再回过头去仔细看代码</p>
+<p>发现代码结构很简单，就是要求用户输入一个flag值，然后依次通过三个函数进行加密，其中encode1和encode2是做异或和加和运算，encode3是调用base64库里的b32encode()函数进行base32运算。然后将结果与代码给定的final值进行比较(这里根据final结尾的三个”=”以及均为数字和大写字母的结构也能看出是进行了base32加密)，如果相等输出correct，如果不相等，输出wrong。</p>
+<p>所以，出题者的意思就很明显了，也就是让我们根据这个加密运算过程，写出逆过程，将final值作为输入进函数的值，然后以与之前相反的顺序调用函数，最后输出的值就是flag</p>
+<p>接下来，就修改了原始代码，首先是进入函数的顺序改成先进函数3再进2最后进1。然后就是每个函数内部运算，+变-，-变+，异或运算的逆过程就是再做一次异或，所以不用变，base64.b32encode()改成base64.32decode()。然后把return之前的语句颠倒一下顺序，最后的拍到第一个，以此类推。需要注意的是，还要按照代码逻辑，把i和x给相互换一下，不然会报错</p>
+<p>最后代码如下:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> base64</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">encode1</span><span class="params">(ans)</span>:</span></span><br><span class="line">    s = <span class="string">''</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> ans:</span><br><span class="line">        x = ord(i) - <span class="number">25</span></span><br><span class="line">        x = x ^ <span class="number">36</span></span><br><span class="line">        s += chr(x)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> s</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">encode2</span><span class="params">(ans)</span>:</span></span><br><span class="line">    s = <span class="string">''</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> ans:</span><br><span class="line">        x = ord(i) ^ <span class="number">36</span></span><br><span class="line">        x = x - <span class="number">36</span></span><br><span class="line">        s += chr(x)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> s</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">encode3</span><span class="params">(ans)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> base64.b32decode(ans)</span><br><span class="line"></span><br><span class="line">final = <span class="string">'UC7KOWVXWVNKNIC2XCXKHKK2W5NLBKNOUOSK3LNNVWW3E==='</span></span><br><span class="line">flag = <span class="string">' '</span></span><br><span class="line">flag = encode1(encode2(encode3(final)))</span><br><span class="line">print(<span class="string">"flag=&#123;&#125;"</span>.format(flag))</span><br></pre></td></tr></table></figure>
 
 
 
+<p>兴奋的去运行程序，结果编译器又报错:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">PS D:\Note\CTF&gt; python -u "d:\Note\CTF\demo.py"</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File "d:\Note\CTF\demo.py", line 29, in &lt;module&gt;</span><br><span class="line">    flag = encode1(encode2(encode3(final)))</span><br><span class="line">  File "d:\Note\CTF\demo.py", line 16, in encode2</span><br><span class="line">    x = ord(i) ^ 36</span><br><span class="line">TypeError: ord() expected string of length 1, but int found</span><br></pre></td></tr></table></figure>
 
+<p>错误提示是ord()函数想要一个长度为1的str类型，但是现在是int类型</p>
+<p>之后经过一番周折，发现是base64.32decode()的问题，它的返回类型是types，而这里ord()是想要一个str型的数据，于是又百度知道可以用decode()函数进行类型转换，于是将encode3(final)改为encode3(final).decode()</p>
+<p>运行程序，还是报错，错误提示是:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">PS D:\Note\CTF&gt; python -u "d:\Note\CTF\demo.py"</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File "d:\Note\CTF\demo.py", line 29, in &lt;module&gt;</span><br><span class="line">    flag = encode1(encode2(encode3(final).decode()))</span><br><span class="line">UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa0 in position 0: invalid start byte</span><br></pre></td></tr></table></figure>
 
-<p>于是百度之</p>
-<p>这个时候度娘就开始误导我了</p>
-<p><strong>误导1：</strong></p>
-<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/Normal_RSA/%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93%E7%9A%84%E8%AF%AF%E5%AF%BC1.png" alt=""></p>
-<p> 神™midi乐谱文件。。。 </p>
-<p><strong>误导2：</strong></p>
-<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/Normal_RSA/%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93%E7%9A%84%E8%AF%AF%E5%AF%BC2.png" alt=""></p>
-<p> 误导2让我去下了一个神盾xxxx的软件，下载下来之后发现这玩意貌似只能生成一个加密的磁盘分区，于是又去百度pem是啥，这次度娘终于靠谱了 ：</p>
-<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/Normal_RSA/pem%E6%98%AF%E5%95%A5.png" alt=""></p>
-<p> 于是去下了个openssl，然后从pubkey.pem中提取信息 :</p>
-<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/Normal_RSA/openssl%E6%8F%90%E5%8F%96pem.png" alt=""></p>
-<p>里面Modulus就是N，Exponent就是e</p>
-<p>这里显示：</p>
-<p>Modulus（hex）</p>
-<p>=C2636AE5C3D8E43FFB97AB09028F1AAC6C0BF6CD3D70EBCA281BFFE97FBE30DD</p>
-<p>明显是个16进制数，先转换成10进制的</p>
-<p>Modulus（dec）</p>
-<p>=87924348264132406875276140514499937145050893665602592992418171647042491658461</p>
-<p>对其在线质因数分解，得到p、q</p>
-<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/Normal_RSA/%E8%B4%A8%E5%9B%A0%E6%95%B0%E5%88%86%E8%A7%A3.png" alt=""></p>
-<p>所以现在知道了：</p>
-<p>p=275127860351348928173285174381581152299</p>
-<p>q=319576316814478949870590164193048041239</p>
-<p>e=65537</p>
-<p>然后，事情就陷入了僵局。。之后看了一下writeup，</p>
-<p>发现是用了一个叫rsatool的工具，可以由p、q、e计算d，并生成pem文件</p>
-<p>然后就是想办法去安装rsatool，但是发现安装它还需要安俩东西，pyasn1和gmpy，其中pyasn1顺利安上了，但是gmpy死活安不上，鼓捣了3个晚上，发现貌似是gmpy太老了，不兼容现在的各种东西，但是好像在kali上能装成，于是按照教程，成功在kali上装上了</p>
-<p>然后按照用法，把pubkey.pem和rsatool.py放一块，从终端输入命令：</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">python</span><br><span class="line">rsatool.py -f PEM -o private.pem -p <span class="number">275127860351348928173285174381581152299</span> -q</span><br><span class="line"><span class="number">319576316814478949870590164193048041239</span> -e <span class="number">65537</span></span><br></pre></td></tr></table></figure>
-
-<p> 成功生成private.pem文件 :</p>
-<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/Normal_RSA/%E7%94%9F%E6%88%90private.png" alt=""></p>
-<p>然后把private.pem拖回Windows，和pubkey.pem、flag.enc放一个文件夹里，打开cmder，使用openssl用private.pem解密flag.enc文件并将明文生成txt文件</p>
-<p>输入命令：</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rsautl -decrypt <span class="nomarkup">-in</span> flag.enc -inkey private.pem -out flag.txt</span><br></pre></td></tr></table></figure>
-
-<p> 成功生成flag.txt :</p>
-<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/Normal_RSA/%E7%94%9F%E6%88%90flag.png" alt=""></p>
-<p> 打开，得到flag :</p>
-<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/Normal_RSA/flag.png" alt=""></p>
+<p>也就是变成了UTF-8编码不能解码的问题</p>
+<p>继续百度，发现decode()函数默认使用UTF-8编码，于是，改成encode3(final).decode(‘unicode’)和encode3(final).decode(‘gbk’)，发现还是一样的错误</p>
+<p>最后，在stackoverflow上找到了解决方案，就是用’ISO-8859-1’编码，具体原因还不清楚，以后再研究</p>
+<p>问题链接： <a href="https://stackoverflow.com/questions/19699367/unicodedecodeerror-utf-8-codec-cant-decode-byte" target="_blank" rel="noopener">UnicodeDecodeError: ‘utf-8’ codec can’t decode byte</a> </p>
+<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/easychallenge/%E8%A7%A3%E5%86%B3chn.png" alt=""></p>
+<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/easychallenge/%E8%A7%A3%E5%86%B3en.png" alt=""></p>
+<p> 于是改成encode3(final).decode(‘ISO-8859-1’)之后，程序顺利运行，得到flag :</p>
+<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/easychallenge/flag.png" alt=""></p>
 <p> 收获： </p>
-<p><strong>Kali牛逼!</strong></p>
-<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/Normal_RSA/kali%E8%A1%A8%E6%83%85%E5%8C%851.png" alt=""></p>
-<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/Normal_RSA/kali%E8%A1%A8%E6%83%85%E5%8C%852.png" alt=""></p>
+<p><img src="https://hippotomons-1300590185.cos.ap-chengdu.myqcloud.com/easychallenge/%E7%99%BE%E5%BA%A6.jpg" alt=""></p>
 
     </div>
 
@@ -423,25 +418,23 @@
       <footer class="post-footer">
           <div class="post-tags">
               <a href="/tags/CTF/" rel="tag"># CTF</a>
-              <a href="/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/" rel="tag"># 密码学</a>
-              <a href="/tags/RSA/" rel="tag"># RSA</a>
+              <a href="/tags/Python/" rel="tag"># Python</a>
+              <a href="/tags/pyc%E5%8F%8D%E7%BC%96%E8%AF%91/" rel="tag"># pyc反编译</a>
+              <a href="/tags/%E7%BC%96%E7%A0%81%E8%BD%AC%E6%8D%A2/" rel="tag"># 编码转换</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-next post-nav-item">
-                <a href="/2019/11/04/CTF%E5%AF%86%E7%A0%81%E5%AD%A6-%E6%B7%B7%E5%90%88%E7%BC%96%E7%A0%81/" rel="next" title="CTF密码学-混合编码">
-                  <i class="fa fa-chevron-left"></i> CTF密码学-混合编码
+                <a href="/2019/11/04/Normal-RSA/" rel="next" title="Normal_RSA">
+                  <i class="fa fa-chevron-left"></i> Normal_RSA
                 </a>
             </div>
 
             <span class="post-nav-divider"></span>
 
             <div class="post-nav-prev post-nav-item">
-                <a href="/2019/11/04/Easychallenge/" rel="prev" title="Easychallenge">
-                  Easychallenge <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
       </footer>
