@@ -37,11 +37,11 @@
     
       <category term="CTF" scheme="http://yoursite.com/tags/CTF/"/>
     
+      <category term="编码转换" scheme="http://yoursite.com/tags/%E7%BC%96%E7%A0%81%E8%BD%AC%E6%8D%A2/"/>
+    
       <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
     
       <category term="pyc反编译" scheme="http://yoursite.com/tags/pyc%E5%8F%8D%E7%BC%96%E8%AF%91/"/>
-    
-      <category term="编码转换" scheme="http://yoursite.com/tags/%E7%BC%96%E7%A0%81%E8%BD%AC%E6%8D%A2/"/>
     
   </entry>
   
@@ -93,9 +93,9 @@
     
       <category term="CTF" scheme="http://yoursite.com/tags/CTF/"/>
     
-      <category term="编码转换" scheme="http://yoursite.com/tags/%E7%BC%96%E7%A0%81%E8%BD%AC%E6%8D%A2/"/>
-    
       <category term="密码学" scheme="http://yoursite.com/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+      <category term="编码转换" scheme="http://yoursite.com/tags/%E7%BC%96%E7%A0%81%E8%BD%AC%E6%8D%A2/"/>
     
   </entry>
   
